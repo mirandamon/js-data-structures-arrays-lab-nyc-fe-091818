@@ -1,5 +1,6 @@
 // Write your solution here!
 const drivers = ["Milo", "Otis", "Garfield"]
+const driversCopy = drivers.slice()
 
 function destructivelyAppendDriver(name) {
   drivers.push(name)
