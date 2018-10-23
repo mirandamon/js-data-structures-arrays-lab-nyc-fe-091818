@@ -22,5 +22,3 @@ function appendDriver(name) {
   driversCopy.push(name)
   return driversCopy
 }
-
-const newDrivers = appendDriver('new name')
